@@ -48,11 +48,8 @@ pip install -r requirements.txt
 @inproceedings{swati_swati17293,
   author       = {Swati Swati and Dunja Mladenić},
   title        = {LLNewsBias: A Multilingual News Dataset for Lifelong Learning},
-  booktitle    = {Proceedings of the third European Workshop on Algorithmic Fairness (EWAF’24)},
-  month        = {July},
+  booktitle    = {Proceedings of the 27th International Multiconference INFORMATION SOCIETY – IS 2024.},
+  month        = {October},
   year         = {2024}
 }
 ```
-
-Swati, Swati, and Dunja Mladenić. "LLNewsBias: A Multilingual News Dataset for Lifelong Learning." (2024).
-
