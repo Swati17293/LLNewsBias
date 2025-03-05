@@ -42,9 +42,10 @@ Clone the repository and install the dependencies:
 git clone https://github.com/Swati17293/LLNewsBias.git
 cd LLNewsBias
 pip install -r requirements.txt
+```
 
 ### Cite As
-```
+```bash
 @inproceedings{swati_swati17293,
   author       = {Swati Swati and Dunja Mladenić},
   title        = {LLNewsBias: A Multilingual News Dataset for Lifelong Learning},
