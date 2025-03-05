@@ -43,5 +43,16 @@ git clone https://github.com/Swati17293/LLNewsBias.git
 cd LLNewsBias
 pip install -r requirements.txt
 
+### Cite As
+```
+@inproceedings{swati_swati17293,
+  author       = {Swati Swati and Dunja Mladenić},
+  title        = {LLNewsBias: A Multilingual News Dataset for Lifelong Learning},
+  booktitle    = {Proceedings of the third European Workshop on Algorithmic Fairness (EWAF’24)},
+  month        = {July},
+  year         = {2024}
+}
+```
 
+Swati, Swati, and Dunja Mladenić. "LLNewsBias: A Multilingual News Dataset for Lifelong Learning." (2024).
 
