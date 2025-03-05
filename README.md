@@ -1,23 +1,45 @@
-## LLNewsBias: A Multilingual News Dataset for Lifelong Learning
+<!--
+  README.md for LLNewsBias: A Multilingual News Dataset for Lifelong Learning
+  This document is intended to provide a comprehensive overview of the project,
+  highlight advanced coding practices, and encourage collaboration.
+-->
 
-The rise of digital media enhances information accessibility but also introduces challenges related to the quality and impartiality of news reporting, particularly regarding biases that influence public perception during key global events. In response, this study introduces <b>LLNewsBias</b>, a dataset designed to detect and analyze political bias in multilingual news headlines, covering four major events from 2019 to 2022 — Brexit, COVID-19, the 2020 U.S. election, and the Ukraine-Russia war. With over 350,000 headlines in 17 languages, annotated with bias labels, this dataset is compiled using Media Bias/Fact Check and Event Registry. Our contributions include a structured framework for data collection and organization, enabling event-wise and year-wise analysis while supporting lifelong learning. We also highlight potential use cases that demonstrate the dataset's utility in advancing bias prediction models, multilingual adaptation, and model robustness. Additionally, we discuss the dataset's limitations, addressing potential biases, sample size constraints, and contextual factors. This work provides a valuable resource for improving bias detection in dynamic, multilingual news environments, contributing to the development of more accurate and adaptable models in natural language processing and media studies.
+# LLNewsBias: A Multilingual News Dataset for Lifelong Learning
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Build Status](https://img.shields.io/travis/Swati17293/LLNewsBias.svg)](https://travis-ci.org/Swati17293/LLNewsBias)
 
-### License
-MIT License
+## Overview
 
-### Citation
-If our work is used in a publication, please cite:
-```
-@dataset{swati_2020_3953878,
-  author       = {Swati Swati and Dunja Mladenić},
-  title        = {LLNewsBias: A Multilingual News Dataset for Lifelong Learning},
-  month        = sept,
-  year         = 2024,
-  booktitle    = {Proceedings of the Slovenian KDD Conference on Data Mining and Data Warehouses
-                 (SiKDD), 2024},
-  doi          = {10.70314/is.2024.sikdd.8}
-}
-```
+**LLNewsBias** is a multilingual dataset designed to detect and analyze political bias in news headlines. Covering four major global events — Brexit, COVID-19, the 2020 U.S. election, and the Ukraine-Russia war — from 2019 to 2022, the dataset features over **350,000 headlines** in **17 languages**, each annotated with bias labels.  
+This resource is structured to support lifelong learning in natural language processing, allowing for event-wise and year-wise analysis.
 
+## Motivation & Objectives
 
+- **Objective:** Improve the detection of political bias in news reporting by leveraging a large-scale, multilingual dataset.
+- **Motivation:** With the rapid rise of digital media, ensuring the impartiality of news is crucial. LLNewsBias provides the necessary groundwork for developing more robust and adaptable bias prediction models.
+
+## Data Collection & Annotation
+
+- **Sources:** The dataset is compiled from reputable sources such as Media Bias/Fact Check and Event Registry.
+- **Annotation:** Headlines are carefully labeled with bias indicators, allowing researchers to explore political leanings across diverse contexts.
+- **Coverage:** Focus on major events including Brexit, COVID-19, the 2020 U.S. election, and the Ukraine-Russia war.
+
+## Key Features
+
+- **Multilingual Coverage:** 17 languages to capture global perspectives.
+- **Large-Scale Data:** Over 350,000 annotated news headlines.
+- **Structured Organization:** Data is organized by event and year to facilitate focused research.
+- **Support for Lifelong Learning:** Enables continuous model training and adaptation.
+
+## Quick Start
+
+### Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/Swati17293/LLNewsBias.git
+cd LLNewsBias
+pip install -r requirements.txt
